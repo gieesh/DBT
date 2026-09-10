@@ -8,6 +8,10 @@ END
 
 {%endmacro%}
 
+
+
+
+
 {% macro day_type(x) %}
 
 CASE WHEN DAYNAME(TO_TIMESTAMP({{x}}))IN ('sat','sun')
