@@ -2,7 +2,7 @@ version: 2
 
 sources:
   - name: demo
-    database: DEMO
+    database: demo
     schema: DEMO_SCHEMA
 
     tables:
